@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challanges</title>
+</head>
+
+<body>
+
+    <!-- Weeks -->
+    <section class="main hidden">
+        <div class="weeks">
+            <p>Week 1</p>
+            <p>Week 2</p>
+            <p>Week 3</p>
+            <p>Week 4</p>
+            <p>Week 5</p>
+            <p>Week 6</p>
+            <p>Week 7</p>
+            <p>Week 8</p>
+        </div>
+        <video controls class="weeksvideo">
+            <source src="videos/week1.mp4" type="video/mp4">
+        </video>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Makes button appear after video -->
+    <video id="intro" controls onended="document.getElementById('ready').classList.remove('hidden')">
+        <source src="videos/intro.mp4" type="video/mp4">
+    </video>
+
+    <!-- Add back hidden once I complete everything -->
+    <button id="ready" class="makeup >">Ready</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const ready = document.getElementById('ready');
+
+        // Allows me to bring up weeks after into video
+        ready.addEventListener('click', function () {
+            document.getElementById('intro').classList.add('hidden');
+            ready.classList.add('hidden');
+            document.querySelector('body').style.backgroundColor = 'white';
+            document.querySelector('.main').classList.remove('hidden');
+        });
+
+    </script>
+</body>
+
+</html>

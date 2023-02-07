@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 45px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Button Design*/
+.makeup {
+    background-color: aqua;
+    border-radius: 15%;
+}
+
+.makeup:hover {
+    background-color: blue;
+}
+
+/* Main layout */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* Weeks */
+.weeks {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border: 2px solid black;
+    width: 550px;
+}
+
+.weeksvideo {
+    width: 550px;
+}
+
+
+/* Hide elements */
+.hidden {
+    display: none;
+}
